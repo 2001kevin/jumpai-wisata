@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@100;200;400;500;600&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
